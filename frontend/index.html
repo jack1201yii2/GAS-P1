@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+ <?!= include('frontend/config/cdn') ?>
+
+  </head>
+  <body>
+    <h2>Hola desde index</h2>
+    <div id="root"></div>
+  </body>
+  <components style="display: none;"> <!--Para ocultar las // -->
+  <?!= include('frontend/config/constantesCdn') ?>
+
+  <?!= include('frontend/App') ?>
+  <?!= include('frontend/routes/Routes') ?>
+</components>
+</html>
